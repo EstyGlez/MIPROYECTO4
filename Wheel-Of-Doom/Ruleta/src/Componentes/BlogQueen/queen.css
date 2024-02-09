@@ -1,0 +1,53 @@
+.container {
+    background-color: rgb(29, 27, 27);
+    color: rgb(238, 216, 16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: gold;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .cotilleos {
+    background-color: #535151;
+    color:gold;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .cotilleos h2 {
+    color: gold;
+    font-size: 24px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-button {
+    background-color: transparent;
+    color: gold;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  

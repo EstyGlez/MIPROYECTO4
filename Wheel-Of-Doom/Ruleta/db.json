@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "bc17",
+      "userName": "Estíbaliz",
+      "surName": "felipe",
+      "lastName": "fdfd",
+      "email": "fdfd",
+      "phoneNumber": "fdfd"
+    },
+    {
+      "id": "7422",
+      "userName": "Sandra",
+      "surName": "Medina",
+      "lastName": "Luque",
+      "email": "ffghfhg@g.con",
+      "phoneNumber": "6666666"
+    },
+    {
+      "id": "6cca",
+      "userName": "Lorena",
+      "surName": "kfdlskf",
+      "lastName": "fmgfkgm",
+      "email": "fdnsldkfn",
+      "phoneNumber": "1111"
+    },
+    {
+      "id": "abc1",
+      "userName": "sandra",
+      "surName": "medina",
+      "lastName": "luque",
+      "email": "gjv",
+      "phoneNumber": "5555"
+    }
+  ]
+}

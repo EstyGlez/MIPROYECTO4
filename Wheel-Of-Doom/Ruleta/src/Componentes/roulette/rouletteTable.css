@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: rgb(119, 20, 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roulette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wheel img {
+  border-radius: 50%;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 600px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.wheel {
+  position: relative;
+}
+
+.spinning .wheel {
+  animation: spin 5s cubic-bezier(0.3, 1, 0.7, 1);
+}
+
+.stopped .wheel {
+  animation: none !important;
+}
+
+.resultado {
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.button-container {
+  transition: transform 2.2s ease;
+  transform: rotate(0deg);
+}
+
+.sorteo-container.spinning .button-container {
+  transform: rotate(360deg);
+}

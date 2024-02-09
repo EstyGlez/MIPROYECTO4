@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 194px;
+    padding-top: 49px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 1148px;
+    align-items: center;
+    margin-left: 146px;
+    margin-right: 146px;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+
+.options {
+    display: flex;
+    flex-direction: row;
+}
+
+#buttonform{
+    padding-right: 56px;
+}
+#img_login {
+    padding-right: 10px;
+}
+
+#img_logout {
+    padding-right: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    padding-right: 39px;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row;
+}
